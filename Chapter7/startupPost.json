@@ -1,0 +1,25 @@
+[
+  {
+    "description": "模拟post请求",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "这是一个post请求"
+    }
+  },{
+  "description": "有参post请求",
+  "request": {
+    "uri": "/postwithpara",
+    "method": "post",
+    "forms": {
+      "name": "huhansan",
+      "sex": "man"
+    }
+  },
+  "response": {
+    "text":"youcan post"
+  }
+}
+]

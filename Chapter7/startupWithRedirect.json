@@ -1,0 +1,25 @@
+[
+  {
+    "description": "redirect to baidu",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },{
+  "description": "redirect to mychrome",
+  "request": {
+    "uri": "/toPath"
+  },
+  "redirectTo": "/redirectNew"
+},{
+  "description": "this redirect from",
+  "request": {
+    "uri": "/redirectNew"
+  },
+  "response": {
+    "json": {
+      "success": "1"
+    }
+  }
+}
+]
